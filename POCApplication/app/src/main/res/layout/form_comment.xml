@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_name"
+        android:inputType="textPersonName"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_email"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:layout_below="@+id/edt_name" />
+
+    <EditText
+        android:id="@+id/edt_comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/text_message"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/edt_email"/>
+
+</RelativeLayout>

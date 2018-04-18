@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">POCApplication</string>
+
+
+    <string name="no_comment_list">No Comment List</string>
+    <string name="text_name">Name </string>
+    <string name="text_message">Enter your Comment :</string>
+
+    <string name="text_email">Enter your Email </string>
+    <string name="offline_data">offline data is Unavailable</string>
+    <string name="empty_form_message">Please fill all the fields</string>
+    <string name="comment_form">Add Comment</string>
+</resources>
