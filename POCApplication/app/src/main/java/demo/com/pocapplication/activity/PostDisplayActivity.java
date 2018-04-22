@@ -191,6 +191,12 @@ public class PostDisplayActivity extends BaseActivity implements ViewListener, P
     @Override
     protected void onStop() {
         super.onStop();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
         presenter.onStop();
+
     }
 }
